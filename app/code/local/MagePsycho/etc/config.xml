@@ -1,0 +1,11 @@
+<frontend>
+    <routers>
+        <contacts>
+            <args>
+                <modules>
+                    <magepsycho_customcontact before="Mage_Contacts">MagePsycho_Customcontact</magepsycho_customcontact>
+                </modules>
+            </args>
+        </contacts>
+    </routers>
+</frontend>

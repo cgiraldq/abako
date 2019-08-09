@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+	<parsonii_Customcontacts>
+			<version>1.0.0</version>
+		</parsonii_Customcontacts>
+	</modules>
+  <frontend>
+      <routers>
+          <contacts>
+              <args>
+                  <modules>
+                      <parsonii_customcontact before="Mage_Contacts">parsonii_Customcontact</parsonii_customcontact>
+                  </modules>
+              </args>
+          </contacts>
+      </routers>
+  </frontend>
+
+</config>

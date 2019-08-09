@@ -1,0 +1,1 @@
+[16-Jan-2017 16:20:47 America/Chicago] PHP Fatal error:  Call to a member function startSetup() on a non-object in /home/abakocom/public_html/app/code/community/AW/Blog/sql/blog_setup/mysql4-install-1.0.php on line 30

@@ -1,0 +1,8 @@
+<config>
+<modules>
+<magepsycho_customcontact>
+<active>true</active>
+<codepool>local</codepool>
+</magepsycho_customcontact>
+</modules>
+</config>

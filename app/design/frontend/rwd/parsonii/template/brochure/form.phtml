@@ -1,0 +1,28 @@
+<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+ 
+<form action="<?php echo $this->getFormAction(); ?>" id="brochureForm" method="post">
+ 
+   <div class="input-box">
+      <label for="name"><?php echo $this->__('Name') ?> <span class="required">*</span></label><br />
+      <input name="name" id="name" title="<?php echo $this->__('Name') ?>" value="<?php echo $this->htmlEscape(Mage::helper('brochure')->getUserName()) ?>" class="required-entry input-text" type="text" />
+   </div>
+ 
+   <div class="input-box">
+      <label for="address"><?php echo $this->__('Address') ?> <span class="required">*</span></label><br />
+      <input name="address" id="address" title="<?php echo $this->__('Address') ?>" value="" class="required-entry input-text" type="text" />
+   </div>
+ 
+   <div class="input-box">
+      <label for="telephone"><?php echo $this->__('Telephone') ?> </label><br />
+      <input name="telephone" id="telephone" title="<?php echo $this->__('Telephone') ?>" value="" class="input-text" type="text" />
+   </div>
+ 
+    <div class="button-set">
+        <p class="required"><?php echo $this->__('* Required Fields') ?></p>
+        <button class="form-button" type="submit"><span><?php echo $this->__('Submit') ?></span></button>
+    </div>
+</form>
+ 
+<script type="text/javascript">
+   var magazineForm = new VarienForm('brochureForm', true);
+</script>

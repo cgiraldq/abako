@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="header">
+                <block type="custommenu/topmenu" name="custommenu.topmenu" as="custommenuTopmenu"
+                       template="webandpeople/custommenu/top.phtml"/>
+        </reference>
+    </default>
+</layout>
